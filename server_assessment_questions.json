@@ -1,0 +1,777 @@
+[
+  {
+    "id": "CLS103-1",
+    "title": "If the client has VMware in place, it is activated/using a Client license?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-2",
+    "title": "The client VMware Hosts have been checked and are not End of Support (EoL) within 60 days?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-3",
+    "title": "Is Windows activated on all client servers?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-4",
+    "title": "Are all physical and virtual client servers running an operating system with at least 24 months of support remaining?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-5",
+    "title": "All physical client servers are equipped with server management ports (OOBM: iLo, iDRAC, TSM, LRAC) that are connected to the network and configured?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-6",
+    "title": "Have you logged into the client server remote management system (OOBM: iLo/DRAC/TSM/LRAC) and confirmed that it is working properly?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-7",
+    "title": "Are no workstations being used as servers or hosting applications?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-8",
+    "title": "All physical client servers are using an expanded storage option (RAID)?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-9",
+    "title": "There is no client production data on a NAS or external HDD?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-10",
+    "title": "Are client hosts allocating the appropriate amount of resources to their VMs?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-11",
+    "title": "All client production VM's are configured for auto-start?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-12",
+    "title": "If the client has multiple VMware hosts, the client has vCenter installed to manage them both centrally?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-13",
+    "title": "Are all client production servers are joined to the client domain?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-14",
+    "title": "All client servers are configured with static IPs that are excluded from the DHCP scope?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-15",
+    "title": "Have you confirmed that the Console in the remote management system is working properly (for client servers)?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-16",
+    "title": "All configured server management ports (for client servers) have been logged into and checked for health status / alarms, and the checks have come back clean?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-17",
+    "title": "Are all client servers less than 5 years old?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-18",
+    "title": "Is there at least 10% free disk space on the client host/server?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-19",
+    "title": "Are all client servers listed with a patch compliance score of 80% or above?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-20",
+    "title": "If the client has VM's in place, all Hypervisors currently have no snapshots/checkpoints inside the VM client?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-21",
+    "title": "None of the virtual machines have orphaned snapshots/checkpoints?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-22",
+    "title": "If the client has DFS (Distributed File System) in use, it has been checked and is working as expected?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-23",
+    "title": "Automate - Is the RAID or HD health of ALL servers monitored?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-24",
+    "title": "Are low storage space alerts setup for all servers in Automate?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "CLS103-25",
+    "title": "Is the standard ITS Anti-Virus installed on all servers?",
+    "responseOptions": [
+      {
+        "id": 1,
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      },
+      {
+        "id": 2,
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "id": 3,
+        "value": "At Risk",
+        "label": "vCIO Finding Ticket Created"
+      },
+      {
+        "id": 4,
+        "value": "Needs Attention",
+        "label": "Alignment Ticket Created"
+      },
+      {
+        "id": 5,
+        "value": "Satisfactory",
+        "label": "Yes"
+      }
+    ]
+  }
+]
